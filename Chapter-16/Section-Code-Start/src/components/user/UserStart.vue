@@ -1,0 +1,20 @@
+<template>
+    <div>
+        <p>Please select a User</p>
+        <hr>
+        <ul class="list-group">
+            <router-link tag="li"
+                        to="/user/1"
+                        class="list-group-item" 
+                        style="cursor: pointer"><a>User 1</a></router-link>
+            <router-link tag="li" 
+                        to="/user/2"
+                        class="list-group-item" 
+                        style="cursor: pointer"><a>User 2</a></router-link>
+            <router-link tag="li" 
+                        to="/user/3"
+                        class="list-group-item" 
+                        style="cursor: pointer"><a>User 3</a></router-link>
+        </ul>
+    </div>
+</template>
